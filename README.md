@@ -1,16 +1,35 @@
 # poki
 
-A new Flutter project.
+### Getting Started
+#### 1. Clone the repo
+```
+https://github.com/dipanshparmar/poki.git
+```
 
-## Getting Started
+#### 2. Navigate to the project and install the dependencies
+```
+flutter pub get
+```
 
-This project is a starting point for a Flutter application.
+#### 3. Run the application
+Make sure you have an emulator running or a physical device connected to your computer.
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Alternatively, you can create an apk and install that on your device:
+```
+flutter build apk
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[**Optional**] If above doesn't work, then try to build the debug apk
+```
+flutter build apk --debug
+```
+
+That's it!
+
+#### Demo
+https://github.com/dipanshparmar/poki/assets/49204837/b587ddad-7b10-497a-9faa-4d97b7e787cd
+
